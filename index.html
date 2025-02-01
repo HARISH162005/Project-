@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MiniGPT | HARISH</title>
+    <link rel="icon" href="images/chatbot.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <div class="nav-title">
+          HARISH<b>&lt;</b>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <div class="nav-links">
+          <ul>
+        <li><a href="#" target="_blank">Home</a></li>
+        <li><a href="#" target="_blank">About</a></li>
+        <li><a href="#" target="_blank">Services</a></li>
+        <li><a href="#" target="_blank">Portfolio</a></li>
+        <li><a href="#" target="_blank">Contact</a></li>
+        <a class="icon">
+          <a href="https://www.instagram.com/__unlucky_._kid__/"><i class="fa-brands fa-instagram fa-bounce"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f fa-shake"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter fa-bounce"></i></a>
+        </a>
+          </ul>
+      </div>
+    </div>
+    <div class="chat-container"></div>
+    
+    <div class="typing-container">
+      <div class="typing-content">
+        <div class="typing-textarea">
+          <textarea id="chat-input" spellcheck="false" placeholder="Enter a prompt here" required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
+        </div>
+        <div class="typing-controls">
+          <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+          <span id="delete-btn" class="material-symbols-rounded">delete</span>
+      </div>
+    </div>
+
+  </body>
+</html>
